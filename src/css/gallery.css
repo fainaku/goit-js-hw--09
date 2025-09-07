@@ -1,0 +1,24 @@
+.gallery {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 24px * 2) / 3);
+  list-style: none;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.gallery-item:hover {
+  transform: scale(1.04);
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+body .basicLightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
