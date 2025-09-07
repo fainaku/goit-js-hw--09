@@ -23,7 +23,7 @@ function handleFormSubmit(event) {
     alert('Fill please all fields');
     return;
   }
-
+  console.log(formData);
   event.currentTarget.reset();
   localStorage.removeItem(STORAGE_KEY);
 
